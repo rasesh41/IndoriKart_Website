@@ -1,0 +1,545 @@
+
+
+ <!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie ie8" class="no-js" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Edge Responsive Multipurpose Template</title>
+    <meta name="description" content="">
+
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/flexslider.css"/>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" data-name="skins">
+
+    <link rel="stylesheet" href="css/layout/wide.css" data-name="layout">
+
+    <link rel="stylesheet" href="css/animate.css"/>
+<!-- ===============================================================================
+    
+
+<link rel="stylesheet" type="text/css" href="css/switcher.css" media="screen" />
+=================================================================================== -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<style>
+.service-icon:hover
+{
+opacity:0.5;
+}
+.my-cart:hover
+{
+opacity:0.5;
+}
+.fa-shopping-cart:hover
+{
+color:lime;
+}
+.fa-search:hover
+{
+opacity:0.5;
+}
+.leftmenu41
+{
+float:left;
+color:#fff;
+height:50%;
+width:14%;
+font-size:50px;
+background-color:#555;
+}
+#category
+{
+float:left;
+font-size:20px;
+background-color:#555;
+<!--
+overflow:scroll;
+-->
+}
+fieldset
+{
+padding-left:5px;
+}
+#category:hover
+{
+
+}
+#im1
+{
+width:225px;
+height:225px;
+}
+
+a
+{
+color:#fff;
+}
+#abc
+{
+border-width=5em;
+}
+.active
+{
+background-color:#7be2cd;
+}
+.footer
+{
+
+margin-top:565px;
+
+}
+
+</style>
+</head>
+<body class="home">
+    <header id="header">
+        <!-- Start header-top -->
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="hidden-xs col-lg-7 col-sm-5 top-info">
+                        <span><i class="fa fa-phone"></i>Phone:(+91) 9000-12345</span>
+                        <span class="hidden-sm"><i class="fa fa-envelope"></i>Email: Indorikart@google.com</span>
+                    </div>
+                    <div class="col-lg-5 col-sm-7 top-info clearfix">
+                        <ul>
+                            <li><a class="my-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a class="my-tweet" href="#"><i class="fa fa-twitter"></i></a></li>
+                            
+                            
+                            <li><a class="my-google" href="#"><i class="fa fa-google-plus"></i></a></li>
+                           <li><a class="my-cart" href="#"><i class="fa fa-shopping-cart"></i></a></li>
+	         
+	         <li>
+                                <form class="search-bar">
+                                    <label for="search" class="search-label">
+                                        <button class="search-button"><i class="fa fa-search"></i></button><!-- Fix the break-row-bug
+                                        --><input type="text" id="search" class="search-input" />
+                                    </label>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--/.header-top -->
+
+        <div id="menu-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3">
+                        <div id="logo">
+                            <h1><a href="#"><img src="images/logo.jpg" ></a></h1>
+                        </div>
+                    </div>
+                    <!-- Navigation
+                    +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+                    <div class="col-lg-9 col-sm-9 navbar navbar-default navbar-static-top container" role="navigation">
+                        <!--  <div class="container">-->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#"><span class="data-hover"data-hover="home">home</span></a>
+                                    
+                                </li>
+
+                                
+
+                                <li><a href="#" ><span class="data-hover" data-hover="Services">Services</span></a>
+                                    <ul class="dropdown-menu">
+                                      <!--
+                                            <li>
+                                            <a href="about.html">About </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="about.html">About Us 1</a></li>
+                                                <li><a href="about-2.html">About Us 2</a></li>
+                                            </ul>
+                                        </li>
+			-->
+                                        <li><a href="#">Coaching Reviews</a></li>
+                                        <li><a href="#">Buy/Sell Used</a></li>
+                                        <li><a href="#">Lords & Tenants</a></li>
+                                      
+                                    </ul>
+                                </li>
+
+
+                                <li><a href="#" ><span class="data-hover" data-hover="Shop">Shop</span></a>
+                                    <ul class="dropdown-menu">
+                                     
+                                        <li><a href="#">Food</a></li>
+                                        <li><a href="#">Accessories</a></li>
+                                        <li><a href="#">Cakes And Bouquetes</a></li>
+                                        <li><a href="#">Personal Care</a></li>
+                                        <li><a href="#">Chocolates</a></li>
+		</ul>
+                                </li>
+
+
+
+
+                                <li><a href="#"><span class="data-hover" data-hover="About us">About us</span></a>
+                                    <!--
+		<ul class="dropdown-menu">
+                                        <li><a href="#">Portfolio Classic</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="portfolio_2.html">Portfolio 2</a></li>
+                                                <li><a href="portfolio_3.html">Portfolio 3</a></li>
+                                                <li><a href="portfolio_4.html">Portfolio 4</a></li>
+                                            </ul>
+-->
+                                        </li>
+<!--
+                                        <li>
+                                            <a href="portfolio_masonry_3.html">Portfolio Masnory</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="portfolio_masonry_2.html">Masonry portfolio 2</a></li>
+                                                <li><a href="portfolio_masonry_3.html">Masonry portfolio 3</a></li>
+                                                <li><a href="portfolio_masonry_4.html">Masonry portfolio 4</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li>
+                                            <a href="portfolio_single.html">Portfolio Single</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="portfolio_single.html">Portfolio Single 1</a></li>
+                                                <li><a href="portfolio_single_2.html">Portfolio Single 2</a></li>
+                                                <li><a href="portfolio_single_3.html">Portfolio Single 3</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+-->
+
+                                <li><a href="#"><span class="data-hover" data-hover="Blog">Blog</span></a>
+<!--
+                                    <ul class="dropdown-menu">
+                                        <li><a href="portfolio_masonry_3.html">Masnory Blog Style</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="blog-masonry-two.html">Blog Masonry 2</a></li>
+                                                <li><a href="blog-masonry-three.html">Blog Masonry 3</a></li>
+                                                <li><a href="blog-masonry-four.html">Blog Masonry 4</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="portfolio_masonry_3.html">Classic Blog Style</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="blog-large-image.html">Large Image</a></li>
+                                                <li><a href="blog-medium-image.html">Medium Image</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="blog-post.html">Single Post</a></li>
+                                    </ul>
+                                -->
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/.container -->
+        </div>
+
+<div class="leftmenu41">
+<h1 style="color:#fff"><center>Categories</center></h1><hr>
+<span id="category">
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li><a target="_top" href="#" id="abc" class="active">Food</a><hr>
+<a target="_top" href="#" id="abc">Accessories</a><hr>
+<a target="_top" href="#" id="abc">Cakes And<br><br>Bouquetes</a><hr>
+<a target="_top" href="#" id="abc">Personal Care</a><hr>
+<a target="_top" href="#" id="abc">Chocolates</a>
+<!--
+<a target="_top" href="#" id="abc">Chocolates123</a>
+<a target="_top" href="#" id="abc">Chocolates456</a>
+<a target="_top" href="#" id="abc">Chocolates123</a>
+<a target="_top" href="#" id="abc">Chocolates456</a>
+<a target="_top" href="#" id="abc">Chocolates123</a>
+<a target="_top" href="#" id="abc">Chocolates456</a>
+<a target="_top" href="#" id="abc">Chocolates123</a>
+<a target="_top" href="#" id="abc">Chocolates456</a>
+<a target="_top" href="#" id="abc">Chocolates123</a>
+<a target="_top" href="#" id="abc">Chocolates456</a>
+<a target="_top" href="#" id="abc">Chocolates123</a>
+<a target="_top" href="#" id="abc">Chocolates456</a>
+ -->
+</li>
+</ul>
+</div>
+</div>
+</span>
+</div>
+
+<fieldset style="width:290px;height:260px;float:left;">
+	<fieldset>
+		<img id="im1" src="dream.jpg" />
+	</fieldset>
+	<input type="button" name="add_to_cart" value="Add To Cart">
+	<p1 style="margin-right:125px;font-size:20px;float:right">Price:</p1>
+</fieldset>
+
+<fieldset style="width:290px;height:260px;float:left;">
+	<fieldset>
+		<img id="im1" src="dream.jpg" />
+	</fieldset>
+	<input type="button" name="add_to_cart" value="Add To Cart">
+	<p1 style="margin-right:125px;font-size:20px;float:right">Price:</p1>
+</fieldset>
+
+<fieldset style="width:290px;height:260px;float:left;">
+	<fieldset>
+		<img id="im1" src="dream.jpg" />
+	</fieldset>
+	<input type="button" name="add_to_cart" value="Add To Cart">
+	<p1 style="margin-right:125px;font-size:20px;float:right">Price:</p1>
+</fieldset>
+
+<fieldset style="width:290px;height:260px;float:left;">
+	<fieldset>
+		<img id="im1" src="dream.jpg" />
+	</fieldset>
+	<input type="button" name="add_to_cart" value="Add To Cart">
+	<p1 style="margin-right:125px;font-size:20px;float:right">Price:</p1>
+</fieldset>
+
+<fieldset style="width:290px;height:260px;float:left;">
+	<fieldset>
+		<img id="im1" src="dream.jpg" />
+	</fieldset>
+	<input type="button" name="add_to_cart" value="Add To Cart">
+	<p1 style="margin-right:125px;font-size:20px;float:right">Price:</p1>
+</fieldset>
+
+<fieldset style="width:290px;height:260px;float:left;">
+	<fieldset>
+		<img id="im1" src="dream.jpg" />
+	</fieldset>
+	<input type="button" name="add_to_cart" value="Add To Cart">
+	<p1 style="margin-right:125px;font-size:20px;float:right">Price:</p1>
+</fieldset>
+
+<fieldset style="width:290px;height:260px;float:left;">
+	<fieldset>
+		<img id="im1" src="dream.jpg" />
+	</fieldset>
+	<input type="button" name="add_to_cart" value="Add To Cart">
+	<p1 style="margin-right:125px;font-size:20px;float:right">Price:</p1>
+</fieldset>
+
+<fieldset style="width:290px;height:260px;float:left;">
+	<fieldset>
+		<img id="im1" src="dream.jpg" />
+	</fieldset>
+	<input type="button" name="add_to_cart" value="Add To Cart">
+	<p1 style="margin-right:125px;font-size:20px;float:right">Price:</p1>
+</fieldset>
+
+<!--
+
+<fieldset style="width:290px;height:260px;float:left;">
+	<fieldset>
+		<img id="im1" src="dream.jpg" />
+	</fieldset>
+	<input type="button" name="add_to_cart" value="Add To Cart">
+</fieldset>
+
+<fieldset style="width:290px;height:260px;float:left;">
+	<fieldset>
+		<img id="im1" src="dream.jpg" />
+	</fieldset>
+	<input type="button" name="add_to_cart" value="Add To Cart">
+</fieldset>
+
+<fieldset style="width:290px;height:260px;border-bottom-color:red;border-top-color=#ff0000;border-bottom-width:2px">
+	<fieldset >
+		<img id="im1" src="dream.jpg" />
+	</fieldset>
+	<input type="button" name="add_to_cart" value="Add To Cart2">
+</fieldset>
+
+
+<fieldset style="width:290px;height:260px;float:left;">
+	<fieldset>
+		<img id="im1" src="dream.jpg" />
+	</fieldset>
+	<input type="button" name="add_to_cart" value="Add To Cart">
+</fieldset>
+
+<fieldset style="width:290px;height:260px;float:left;">
+	<fieldset>
+		<img id="im1" src="dream.jpg" />
+	</fieldset>
+	<input type="button" name="add_to_cart" value="Add To Cart">
+</fieldset>
+
+<fieldset style="width:290px;height:260px;float:left;">
+	<fieldset>
+		<img id="im1" src="dream.jpg" />
+	</fieldset>
+	<input type="button" name="add_to_cart" value="Add To Cart">
+</fieldset>
+
+<fieldset style="width:290px;height:260px;border-bottom-color:red;border-top-color=#ff0000;border-bottom-width:2px">
+	<fieldset >
+		<img id="im1" src="dream.jpg" />
+	</fieldset>
+	<input type="button" name="add_to_cart" value="Add To Cart2">
+</fieldset>
+-->
+<!-- **********************************************************************************************************
+<div class="leftmenu41">
+<ul>
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
+
+                                <li class="active"><a href="#"><span class="data-hover"data-hover="Food">Food</span></a>
+                                    
+                                </li><br>
+
+                                
+
+                                <li><a href="#" ><span class="data-hover" data-hover="Accessories">Accessories</span></a>
+                                    <ul class="dropdown-menu">
+                                      <!--
+                                            <li>
+                                            <a href="about.html">About </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="about.html">About Us 1</a></li>
+                                                <li><a href="about-2.html">About Us 2</a></li>
+                                            </ul>
+                                        </li>
+			
+                                        <li><a href="#">Coaching Reviews</a></li>
+                                        <li><a href="#">Buy/Sell Used</a></li>
+                                        <li><a href="#">Lords & Tenants</a></li>
+                                      
+                                    </ul>
+                                </li><br>
+
+
+                                <li><a href="#" ><span class="data-hover" data-hover="Cakes And Bouquetes">Cakes And Bouquetes</span></a>
+                                    <ul class="dropdown-menu">
+                                     
+                                        <li><a href="#">Food</a></li>
+                                        <li><a href="#">Accessories</a></li>
+                                        <li><a href="#">Cakes And Bouquetes</a></li>
+                                        <li><a href="#">Personal Care</a></li>
+                                        <li><a href="#">Chocolates</a></li>
+		</ul>
+                                </li><br>
+
+
+
+
+                                <li><a href="#"><span class="data-hover" data-hover="Personal Care">Personal Care</span></a>
+
+                                <li><a href="#"><span class="data-hover" data-hover="Chocolates">Chocolates</span></a>
+</ul>
+</div>
+ -->
+
+<div>
+<!--start footer-->
+<footer class="footer" style="float:bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="widget_title">
+                    <h4><span>About Us</span></h4>
+                </div>
+                <div class="widget_content">
+                    <p>Indorikart.com is premium online E-Commerce website which aims to deliver products from all retailers in Indore to the consumers at a very competitive price.</p>
+                    <ul class="contact-details-alt">
+                        <li><i class="fa fa-map-marker"></i> <p><strong>Address</strong>:IET DAVV , INDORE</p></li>
+                        <li><i class="fa fa-user"></i> <p><strong>Phone</strong>:(+91) 9000-12345</p></li>
+                        <li><i class="fa fa-envelope"></i> <p><strong>Email</strong>: <a href="#">Indorikart@google.com</a></p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="widget_title">
+                    <h4><span>Important Links</span></h4>
+                </div>
+              <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a>Privacy Policy</a></li>
+              <li><a>Offers</a></li>
+              <li><a>Terms And Conditions  </a></li>      
+              </ul>
+            </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="widget_title">
+				
+                    <h4><span>Social Media</span></h4>
+
+                </div>
+                <div class="widget_content">
+<!--
+				<div class="fb-page" data-href="https://www.facebook.com/kartIndore" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/kartIndore"> 
+-->
+<ul>
+<li><a href="https://www.facebook.com/kartIndore">Indorikart</a></li>
+</ul>
+<!--</blockquote></div></div> -->
+				</div>
+				<div class="widget_content" >
+                   <div class="fb-follow"  data-width="500" data-href="https://www.facebook.com/KARTIndore" data-layout="button" data-show-faces="true"></div>
+					</div>
+					<div class="widget_content" >
+				<div class="fb-share-button" data-href="https://www.facebook.com/KartIndore/" data-width="500" data-layout="button_count"></div>
+				</div>
+				<div class="widget_content" >
+                  
+					<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="500" data-layout="button" data-action="recommend" data-show-faces="true" data-share="false"></div>
+                </div>
+            
+        </div>
+<!--
+            <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="widget_title">
+                    <h4><span>Flickr Gallery</span></h4>
+                </div>
+                <div class="widget_content">
+                    <div class="flickr">
+                        <ul id="flickrFeed" class="flickr-feed"></ul>
+                    </div>
+                </div>
+            </div>
+-->
+        </div>
+    </div>
+
+</footer>
+<!--end footer-->
+</div>
+
+</body>
+
+</html>
+
+ 
+
+
+ 
